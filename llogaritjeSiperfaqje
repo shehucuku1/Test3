@@ -1,0 +1,11 @@
+public class LlogaritSiperfaqe{
+ public static void main(String[]args){
+ System.out.println("Jepni numrin e brinjeve te poliginit:");
+ Scanner input=new Scanner(System.in);
+ int numriBrinjeve=input.nextInt();
+ System.out.println("Jepni gjatesine e brinjeve:");
+ double gjatesiaBrinje=input.nextDouble();
+ double siperfaqja=(numriBrinjeve*gjatesiaBrinje*gjatesiaBrinje)/(4*Math.tan(Math.PI/numriBrinjeve));
+ System.out.println("Siperfaqja e poligonit eshte:"+siperfaqja);
+}
+}
